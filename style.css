@@ -33,6 +33,7 @@ width: auto;
     color:rgb(31, 20, 20);
     font-size: larger;
     font-weight: bold;
+       text-align: right;
 }
 .line{
     width:auto;
