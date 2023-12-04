@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>CALCULATOR</title>
+    <link rel="icon" href="https://img.icons8.com/?size=80&id=qROByL3Wa2xL&format=png">
+</head>
+<body >
+    
+        
+          <h1>CALCULATOR</h1>
+
+<div class="outer_container">
+<div class="inner_container">
+<input type="text" class="form-control" id="op" placeholder="0">
+<div class="line"></div>
+<div class="col-12 d-flex">
+    <div class="col-3">
+        <div class=""><button class="ip_btn" id="ip" onclick="display(7)">7</button></div>
+        <div class=""><button class="ip_btn"onclick="display(4)">4</button></div>
+        <div class=""><button class="ip_btn"onclick="display(1)">1</button></div>
+        <div class=""><button class="ip_btn"onclick="display(0)">0</button></div>
+        <div class=""><button class="ip_btn"onclick="display('*')">*</button></div>
+    </div>
+    <div class="col-3">
+    <div class=""><button class="ip_btn"onclick="display(8)">8</button ></div>
+    <div class=""><button class="ip_btn"onclick="display(5)">5</button></div>
+    <div class=""><button class="ip_btn"onclick="display(2)">2</button></div>
+    <div class=""><button class="ip_btn"onclick="display('.')">.</button></div>
+    <div class=" col-3"><button class="ip_btn"onclick="clear_last()">&#9003</button></div> 
+</div>
+    <div class="col-3">
+        <div class="col-3"><button class="ip_btn"onclick="display(9)">9</button></div>
+        <div class="col-3"><button class="ip_btn"onclick="display(6)">6</button></div> 
+        <div class="col-3"><button class="ip_btn"onclick="display(3)">3</button></div>   
+        <div class="col-3"><button class="ip_btn"onclick="display('/')">&#247</button></div> 
+        <div class=" col-3 "><button class="ip_btn"onclick="clear_all()">AC</button></div> 
+    </div>
+    <div class="col-3">
+
+        <div class=""><button class="ip_btn"onclick="display('+')">+</button></div>
+        <div class=""><button class="ip_btn"onclick="display('-')">-</button></div>
+        <div class=""><button class="large_btn" onclick="answer()">=</button></div>
+    </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
